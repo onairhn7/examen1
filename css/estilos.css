@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: #fffdfa;
+  color: #658394;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Navegación */
+.navegacion-principal {
+  margin: 0;
+  padding: 0;
+}
+
+.navegacion-principal ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7508b6;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.navegacion-principal li {
+  display: inline;
+  float: left;
+}
+
+.navegacion-principal a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navegacion-principal a:hover {
+  background-color: #410d60;
+}
+
+.navegacion-logo {
+  height: 46px;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.active {
+  background-color: #b16307;
+  color: white !important;
+}
+
+/* Formularios */
+.titulo-formulario {
+  font-size: 48px;
+  font-weight: lighter;
+  color: #3e686f;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: large;
+}
+.boton-submit {
+  min-width: 300px;
+  background-color: #7508b6;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  display: inline-block;
+}
+
+.boton-comprar {
+  width: 90%;
+  background-color: #7508b6;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  display: inline-block;
+}
+
+
+.boton-registro {
+  color: #7508b6;
+  border-color: #7508b6;
+  border-style: solid;
+  border-width: 1px;
+  padding: 14px 20px;
+  width: 300px;
+  margin: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  display: inline-block;
+}
+
+.boton-cancelar {
+  color: #b60808;
+  border-color: #b60808;
+  border-style: solid;
+  border-width: 1px;
+  padding: 14px 20px;
+  width: 300px;
+  margin: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  display: inline-block;
+}
+
+.boton-submit:hover, .boton-comprar:hover {
+  background-color: #410d60;
+}
+
+.contenedor-formulario {
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 50px 30px;
+  position: relative;
+  top: 25%;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.campos-formulario {
+  margin: 0 20px;
+}
+
+label {
+  float: left;
+}
+
+/* General */
+.sin-margen {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.clear-both {
+  clear: both !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.titulo {
+  color: white;
+  margin: 0;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+footer {
+  background-color: #7508b6;
+  color: white;
+  padding: 2em;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.inicio {
+  background-image: url("../img/Fondo.png");
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  padding: 50px 0;
+  margin: 0;
+}
+
+/* Galería */
+.galeria {
+  list-style-type: none;
+}
+
+.galeria li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.obra {
+  margin: 1.5em;
+  width: 250px;
+}
+
+.galeria img {
+  width: 250px;
+}
+
+.titulo-producto {
+  color: #7508b6;
+  font-weight: bold;
+  font-size: large;
+  margin: 15px 0;
+}
+
+.descripcion-producto {
+  text-align: justify;
+}
+
+.producto-mes {
+  background-color: #b16307;
+  color: white;
+  padding: 25px 0;
+}
+.producto-mes h1 {
+  font-weight: lighter;
+}

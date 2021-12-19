@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <nav class="navegacion-principal">
+        <ul>
+            <li>
+                <a href="/index.html" class="enlace sin-margen">
+                    <img class="navegacion-logo" src="img/logo.png" />
+                </a>
+            </li>
+            <li>
+                <a class="enlace" href="./">Inicio</a>
+            </li>
+            <li>
+                <a class="enlace" href="./productos.html">Productos</a>
+            </li>
+            <li class="float-right">
+                <a class="active" href="#carrito">Carrito</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="inicio" class="centrado inicio">
+        <form class="contenedor-formulario">
+            <h1 class="titulo-formulario">Registrarse</h1>
+            <div class="campos-formulario">
+                <label for="usuario">Usuario</label>
+                <input id="usuario" type="text" />
+
+                <label for="nombre">Nombre completo</label>
+                <input id="nombre" type="text" />
+
+                <label for="password">Contraseña</label>
+                <input id="password" type="password" />
+
+                <label for="confirmarPassword">Confirmar contraseña</label>
+                <input id="confirmarPassword" type="password" />
+
+                <label for="email">Correo electrónico</label>
+                <input id="email" type="email" />
+            </div>
+
+            <div class="float-right">
+                <a class="boton-submit" href="./productos.html">Registrarse</button>
+                <a class="boton-cancelar" href="./index.html">Cancelar</a>
+            </div>
+            <div class="clear-both"></div>
+        </form>
+    </div>
+
+    <footer class="centrado ">
+        Todos los derechos reservados - 2021
+    </footer>
+</body>
+
+</html>
